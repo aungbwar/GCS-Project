@@ -1,4 +1,4 @@
-## Note
+# Note
 
 This repository is a personal practice/learning copy of the NGCP GCS User Interface project.
 
