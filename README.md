@@ -1,3 +1,15 @@
+## Note
+
+This repository is a personal practice/learning copy of the NGCP GCS User Interface project.
+
+Original project:
+https://github.com/ngcp-project/gcs-user-interface
+
+I am using this repository to study the codebase, practice development, and make my own modifications.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 # ! ALERT !
 
 This is the archived repository for GCS User Interface/Database. Our teams have moved onto a [new repository](https://github.com/ngcp-project/GCS-2025-26).
