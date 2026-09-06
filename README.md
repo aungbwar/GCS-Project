@@ -10,19 +10,19 @@ I am using this repository to study the codebase, practice development, and make
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-# ! ALERT !
+## ! ALERT !
 
 This is the archived repository for GCS User Interface/Database. Our teams have moved onto a [new repository](https://github.com/ngcp-project/GCS-2025-26).
 
-# GCS User Interface
+## GCS User Interface
 
 The GCS User Interface for the NGCP project.
 
-# Getting Started
+## Getting Started
 
 This project uses [Tauri](https://tauri.app/), [Bun](https://bun.sh/), and [Vue 3](https://vuejs.org/).
 
-## Installation
+### Installation
 
 Clone the repository.
 
@@ -43,7 +43,7 @@ Run the application.
 bun tauri
 ```
 
-## Setting up FPV camera server
+### Setting up FPV camera server
 
 Install Flask and opencv-python dependencies.
 
@@ -80,7 +80,7 @@ bun run target:triple
 
 Now the FPV camera server should run with `bun tauri dev`. It takes time for it to spin up and once it does, make sure you refresh the camera window.
 
-## Setting up map server
+### Setting up map server
 
 Ensure Docker is running then install the docker container. Note only update
 
@@ -94,11 +94,11 @@ Run the Map Server container.
 bun run osm:run
 ```
 
-## Running the PostGreSQL Docker image
+### Running the PostGreSQL Docker image
 `docker-compose up db`
 
-## Running the RabbitMQ Docker image
+### Running the RabbitMQ Docker image
 `docker-compose up rabbitmq`
 
-## Map Server Debugging Notes
+### Map Server Debugging Notes
 - If you get an error "Error: role renderer already exists" when running the map server, go into Docker Desktop and delete the volume installed. Re-run the setup command to install the volume again.
